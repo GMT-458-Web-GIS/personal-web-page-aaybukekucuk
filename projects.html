@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aybüke Küçük | Projects</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f5f6fa;
+      color: #2f3640;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #2f3640;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header h2 {
+      font-size: 1rem;
+      font-weight: normal;
+      color: #dcdde1;
+      margin-top: 0;
+    }
+
+    nav {
+      background-color: #353b48;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: #f5f6fa;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #00a8ff;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    section h3 {
+      border-left: 4px solid #00a8ff;
+      padding-left: 10px;
+      color: #273c75;
+    }
+
+    /* Tablo stili */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #dcdde1;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #00a8ff;
+      color: white;
+    }
+    td img {
+      width: 120px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Kart stili */
+    .card-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 280px;
+      text-align: center;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-in-out forwards;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 0.5rem;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #718093;
+      background-color: #f1f2f6;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">Aybüke Küçük</h1>
+    <h2 class="fade-in">Geomatics Engineering Student</h2>
+  </header>
+
+  <nav>
+    <a href="index.html#about">About</a>
+    <a href="index.html#education">Education</a>
+    <a href="projects.html">Projects</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <section id="projects" class="projects">
+    <h3>Projects</h3>
+
+    <!-- Tablo yöntemi -->
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GNSS Positioning System</td>
+          <td>Python-based project calculating receiver positions using RINEX and SP3 data.</td>
+          <td><img src="img/gnss.png" alt="GNSS Project"></td>
+        </tr>
+        <tr>
+          <td>Land Cover Classification</td>
+          <td>Google Earth Engine project classifying surface types in Adana, Turkey.</td>
+          <td><img src="img/landcover.png" alt="Land Cover Project"></td>
+        </tr>
+        <tr>
+          <td>Surveying Adjustment</td>
+          <td>Leveling and error analysis for engineering surveying course.</td>
+          <td><img src="img/survey.png" alt="Survey Project"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Kart yöntemi -->
+    <div class="card-container">
+      <div class="card">
+        <img src="img/gnss.png" alt="GNSS Project">
+        <h4>GNSS Positioning System</h4>
+        <p>Python-based project calculating receiver positions using RINEX and SP3 data.</p>
+      </div>
+      <div class="card">
+        <img src="img/landcover.png" alt="Land Cover Project">
+        <h4>Land Cover Classification</h4>
+        <p>Google Earth Engine project classifying surface types in Adana, Turkey.</p>
+      </div>
+      <div class="card">
+        <img src="img/survey.png" alt="Survey Project">
+        <h4>Surveying Adjustment</h4>
+        <p>Leveling and error analysis for engineering surveying course.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Aybüke Küçük — Geomatics Engineering Portfolio
+  </footer>
+</body>
+</html>
