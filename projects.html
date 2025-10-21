@@ -66,33 +66,13 @@
       color: #273c75;
     }
 
-    /* Tablo stili */
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-    }
-    th, td {
-      border: 1px solid #dcdde1;
-      padding: 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #00a8ff;
-      color: white;
-    }
-    td img {
-      width: 120px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-
     /* Kart stili */
     .card-container {
       display: flex;
       gap: 20px;
       flex-wrap: wrap;
       margin-top: 2rem;
+      justify-content: center;
     }
     .card {
       background: white;
@@ -141,50 +121,26 @@
   <section id="projects" class="projects">
     <h3>Projects</h3>
 
-    <!-- Tablo yöntemi -->
-    <table>
-      <thead>
-        <tr>
-          <th>Project</th>
-          <th>Description</th>
-          <th>Image</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>GNSS Positioning System</td>
-          <td>Python-based project calculating receiver positions using RINEX and SP3 data.</td>
-          <td><img src="img/gnss.png" alt="GNSS Project"></td>
-        </tr>
-        <tr>
-          <td>Land Cover Classification</td>
-          <td>Google Earth Engine project classifying surface types in Adana, Turkey.</td>
-          <td><img src="img/landcover.png" alt="Land Cover Project"></td>
-        </tr>
-        <tr>
-          <td>Surveying Adjustment</td>
-          <td>Leveling and error analysis for engineering surveying course.</td>
-          <td><img src="img/survey.png" alt="Survey Project"></td>
-        </tr>
-      </tbody>
-    </table>
-
-    <!-- Kart yöntemi -->
     <div class="card-container">
       <div class="card">
-        <img src="img/gnss.png" alt="GNSS Project">
+        <img src="https://eos-gnss.com/wp-content/uploads/2023/04/GNSS-Positioning-Overview.png" alt="GNSS Project">
         <h4>GNSS Positioning System</h4>
         <p>Python-based project calculating receiver positions using RINEX and SP3 data.</p>
       </div>
       <div class="card">
-        <img src="img/landcover.png" alt="Land Cover Project">
+        <img src="https://developers.google.com/static/earth-engine/images/og_social_media.png" alt="Land Cover Project">
         <h4>Land Cover Classification</h4>
         <p>Google Earth Engine project classifying surface types in Adana, Turkey.</p>
       </div>
       <div class="card">
-        <img src="img/survey.png" alt="Survey Project">
+        <img src="https://bimlearningcenter.com/wp-content/uploads/2023/03/best-practices-for-establishing-civil-site-control.jpg" alt="Survey Project">
         <h4>Surveying Adjustment</h4>
         <p>Leveling and error analysis for engineering surveying course.</p>
+      </div>
+      <div class="card">
+        <img src="https://mapscaping.com/wp-content/uploads/2024/09/image-789.png" alt="Thematic Map Design Project">
+        <h4>Thematic Map Design</h4>
+        <p>Project focused on thematic map design using QGIS and real statistical data from Türkiye, emphasizing cartographic clarity and design principles.</p>
       </div>
     </div>
   </section>
