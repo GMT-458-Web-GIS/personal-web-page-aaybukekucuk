@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
+      font-family: "Helvetica", sans-serif;
       background-color: #f5f6fa;
       color: #2f3640;
       margin: 0;
@@ -16,10 +16,31 @@
     }
 
     header {
-      background-color: #2f3640;
+      background-image: url('https://www.xyht.com/wp-content/uploads/2021/08/xyHt_GNSS_1_0821.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       color: white;
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 5rem 1rem;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(30, 30, 30, 0.75); /* arka planı daha soluklaştırır */
+      z-index: 1;
+    }
+
+    header h1,
+    header h2 {
+      position: relative;
+      z-index: 2;
     }
 
     header h1 {
@@ -91,6 +112,7 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1 class="fade-in">Aybüke Küçük</h1>
@@ -107,9 +129,17 @@
   <section id="about" class="about">
     <h3>About Me</h3>
     <p>
-      Hello! I am Aybüke Küçük, a Geomatics Engineering student who enjoys working with mapping technologies, data analysis, and modern geospatial tools. 
-      I am interested in remote sensing, GNSS applications, and digital cartography. My goal is to apply technical knowledge to real-world spatial problems.
+      I am Aybüke Küçük, a Geomatics Engineering student at Hacettepe University with a strong interest in mapping technologies, spatial data analysis, and modern geospatial tools.
+      During my studies, I have built a solid background in cartography, GNSS positioning, and remote sensing.
+      I am particularly passionate about photogrammetry and data science, as I enjoy exploring how spatial data can be processed, analyzed, and visualized to solve real-world problems.
+      <br><br>
+      I have completed internships at Mipmap Technologies and Adana Water and Sewerage Administration (ASKİ).
+      At Mipmap, I was involved in photogrammetry and remote sensing projects, gaining hands-on experience with image-based mapping and geospatial data workflows.
+      At ASKİ, I had the opportunity to gain field experience in geodesy and surveying, which helped me better understand the practical aspects of geomatics engineering.
+      <br><br>
+      My goal is to combine my technical background and analytical mindset to develop innovative geospatial solutions that bridge the gap between fieldwork and data-driven decision-making.
     </p>
+
     <div class="image-container">
       <img src="https://sarkac.org/wp-content/uploads/2022/04/Sarkac-geomatik-shutterstock.jpg" alt="Geomatics illustration" />
     </div>

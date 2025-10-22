@@ -3,7 +3,7 @@
   animation: fadeIn 2.5s ease-in forwards;
 }
 
-/* animasyonun tanımı */
+/* animasyon tanımı */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -14,6 +14,7 @@
     transform: translateY(0);
   }
 }
+
 .card-container {
   display: flex;
   gap: 20px;
@@ -31,6 +32,8 @@
 
 .card img {
   width: 100%;
+  height: 180px;      /* sabit yükseklik, kutucuklar eşit görünür */
+  object-fit: cover;  /* görüntü kutuya sığar, taşma olmaz */
   border-radius: 10px;
   margin-bottom: 0.5rem;
 }
@@ -51,10 +54,53 @@
     transform: translateY(0);
   }
 }
-.card img {
-  width: 100%;       /* kart genişliğine göre */
-  height: 180px;     /* sabit yükseklik, kutucuklar eşit görünür */
-  object-fit: cover; /* görüntü kutuya sığar, taşma olmaz */
+
+/* Technologies tablosu için modern çizgili stil ve flex */
+.tech-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border-radius: 10px;
-  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.tech-table tr {
+  border-bottom: 1px solid #dcdde1;
+}
+
+.tech-table tr:last-child {
+  border-bottom: none;
+}
+
+.tech-table td {
+  padding: 8px 12px;
+  font-size: 1rem;
+}
+
+.tech-table td div {
+  display: flex;
+  align-items: center; /* ikon ve metni dikey ortalar */
+  gap: 8px;            /* ikon ile metin arasındaki boşluk */
+}
+
+.tech-table td i {
+  font-size: 1.6rem;
+}
+
+/* Hover efekti */
+.tech-table tr:hover {
+  background-color: #f1f2f6;
+}
+
+/* About ve diğer stiller */
+#technologies ul li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+#technologies i {
+  margin-right: 12px;
+  font-size: 1.5rem;
+  vertical-align: middle;
 }

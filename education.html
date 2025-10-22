@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aybüke Küçük | Eğitim & Teknolojiler</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       font-family: "Segoe UI", sans-serif;
@@ -16,10 +17,25 @@
     }
 
     header {
-      background-color: #2f3640;
+      background-image: url('https://www.xyht.com/wp-content/uploads/2021/08/xyHt_GNSS_1_0821.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       color: white;
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 5rem 1rem;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(30, 30, 30, 0.75); /* arka planı daha soluklaştırır */
+      z-index: 1;
     }
 
     header h1 {
@@ -139,19 +155,31 @@
     </div>
   </section>
 
-  <!-- Teknolojiler Bölümü -->
   <section id="technologies">
     <h3>Technologies</h3>
-    <div class="technologies-info">
-      Skills and tools I work with:
-      <ul>
-        <li>HTML, CSS, and responsive web design</li>
-        <li>OpenLayers for interactive maps</li>
-        <li>Python for geospatial data processing</li>
-        <li>QGIS, ArcGIS for GIS projects</li>
-        <li>Git and GitHub for version control</li>
-      </ul>
-    </div>
+    <p>Skills and tools I work with:</p>
+    <table class="tech-table">
+      <tr>
+        <td><i class="fab fa-html5" style="color:#E34F26;"></i></td>
+        <td>HTML, CSS, and responsive web design</td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-map-marked-alt" style="color:#2ECC71;"></i></td>
+        <td>OpenLayers for interactive maps</td>
+      </tr>
+      <tr>
+        <td><i class="fab fa-python" style="color:#306998;"></i></td>
+        <td>Python for geospatial data processing</td>
+      </tr>
+      <tr>
+        <td><i class="fas fa-globe" style="color:#3498DB;"></i></td>
+        <td>QGIS, ArcGIS for GIS projects</td>
+      </tr>
+      <tr>
+        <td><i class="fab fa-git-alt" style="color:#F1502F;"></i></td>
+        <td>Git and GitHub for version control</td>
+      </tr>
+    </table>
   </section>
 
   <footer>
