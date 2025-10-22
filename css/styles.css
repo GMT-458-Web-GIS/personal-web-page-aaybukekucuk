@@ -125,3 +125,31 @@ header h2 {
   font-weight: 400;
   color: #e0e0e0; /* İkinci satır biraz daha yumuşak beyaz */
 }
+
+.internship-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.internship-table th,
+.internship-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.internship-table thead {
+  background-color: #3498DB; /* pastel mavi */
+  color: white;
+}
+
+.internship-table tbody tr:nth-child(even) {
+  background-color: #f1f2f6;
+}
+
+.internship-table tbody tr:hover {
+  background-color: #d6eaf8; /* hover da pastel ton */
+}
