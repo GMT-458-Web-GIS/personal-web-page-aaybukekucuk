@@ -1,26 +1,31 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7C3xAGjq)
 # 🌍 Personal Web Page – Aybüke Küçük
 
-## 🎯 Aim
-The aim of this project is to familiarize students with **HTML**, **CSS**, and **OpenLayers** by creating a personal portfolio web page.  
-This assignment is a part of the **GMT458 Web GIS Applications** course at Hacettepe University.  
-Each student was required to host their project on **GitHub Pages**.
+## Aim
+The aim of this assignment is to help students get familiar with **HTML**, **CSS**, and **OpenLayers** by designing and publishing their own personal web pages.  
+This project was completed as part of the **GMT458 - Web GIS Applications** course at **Hacettepe University**.  
+The main goal was not only to practice web technologies but also to gain hands-on experience in hosting and managing a website on **GitHub Pages**.
 
 ---
 
-## 🧠 About the Project
-This website was designed to represent me as a **Geomatics Engineering student**, showcasing my background, technical skills, and selected projects.  
-The project focuses on modern web design principles, interactive map integration, and clear information presentation.
+## About the Project
+This project represents my journey as a **Geomatics Engineering student**.  
+I designed this web page to introduce myself, share the technologies I use, and showcase some examples of my academic and technical work.
 
-The web page contains the following main sections:
-- **About Me** – Brief personal introduction and academic background  
-- **Technologies** – A modern table listing software and tools used  
-- **Projects** – Example geomatics projects with images  
-- **Contact** – OpenLayers map embedded for location visualization  
+Throughout the project, I focused on:
+- Clean and modern interface design  
+- Simple and informative content organization  
+- Integration of an **interactive OpenLayers map**  
+
+The website is composed of the following sections:
+- **About Me** – A short introduction about my background and interests  
+- **Technologies** – A visual table of the software and tools I commonly use  
+- **Projects** – Selected projects with visuals and short explanations  
+- **Contact** – My contact information and an OpenLayers-based map  
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Category | Tools / Libraries |
 |-----------|------------------|
@@ -29,52 +34,53 @@ The web page contains the following main sections:
 | GIS Software | QGIS, ArcGIS |
 | Programming | Python |
 | Version Control | Git, GitHub |
-| Design & Layout | Responsive CSS, Flexbox, Icon Fonts |
+| Layout & Design | Responsive CSS, Flexbox, Icon Fonts |
 
 ---
 
-## 💡 Key Features
+## Key Features
 
-- 🎨 **CSS Animations** (smooth fade-in effect for title section)  
-- 🗺️ **OpenLayers Map** integration in the Contact section  
-- 📊 **Modern bordered table** with colorful icons in the Technologies section  
-- 📷 **Image cards** for project gallery  
-- 🌐 **Responsive layout** for desktop and mobile devices  
-
----
-
-## 🤖 AI Usage
-This project was partially developed with assistance from **ChatGPT (OpenAI)**.  
-AI was mainly used to:
-- Improve the CSS styling and responsiveness  
-- Create a modern table design with colorful icons  
-- Adjust text animations and layout proportions  
-
-| Learning from AI | Description |
-|-------------------|-------------|
-| CSS Table Design | Learned how to build a clean, bordered table with icons |
-| Animation | Applied fade-in animation to the header section |
-| OpenLayers | Integrated an interactive map into the Contact section |
-
-**Total AI usage time:** approximately **2 hours**.
+- **CSS Animations** – smooth fade-in transitions and hover effects  
+- **OpenLayers Map Integration** – interactive map on the contact page  
+- **Modern Table Design** – colorful and bordered technology table  
+- **Project Gallery** – image cards with descriptions  
+- **Responsive Layout** – optimized for both desktop and mobile screens  
 
 ---
 
-## 🧭 Hosting
-The project is hosted publicly on **GitHub Pages**, as required by the course assignment.  
-> 🌐 *GitHub Repository URL:*  
-> [https://classroom.github.com/a/7C3xAGjq](https://classroom.github.com/a/7C3xAGjq)
+## AI Usage
+I used **ChatGPT (OpenAI)** support during some parts of the project development process.  
+The AI assistance mainly focused on improving the visual design and technical structure of the website.
+
+| Topic | What I Learned |
+|--------|----------------|
+| CSS Table Design | How to create a clean bordered table with icons and spacing |
+| Animation | How to apply fade-in and hover animations effectively |
+| OpenLayers Integration | How to embed an interactive OpenLayers map into a web page |
+
+**Estimated total AI usage:** ~ 3 hours  
+> I used AI mainly when I couldn’t find a clear example or needed guidance for specific CSS or OpenLayers adjustments.
 
 ---
 
-## 🌐 Live Web Page
-You can view my personal web page here:  
-🔗 [https://gmt-458-web-gis.github.io/personal-web-page-aaybukekucuk/](https://gmt-458-web-gis.github.io/personal-web-page-aaybukekucuk/)
+## Hosting
+The project was published using **GitHub Pages**, which provides free hosting directly from the GitHub repository.
+
+| Item | Link |
+|------|------|
+| 📁 Repository | [GitHub Repo](https://github.com/GMT-458-Web-GIS/personal-web-page-aaybukekucuk) |
+| 🌍 Live Website | [View My Web Page](https://gmt-458-web-gis.github.io/personal-web-page-aaybukekucuk/) |
 
 ---
 
-## 👩‍💻 Author
+## Author
 **Aybüke Küçük**  
-Geomatics Engineering Student  
-Hacettepe University  
-📍 Ankara, Türkiye
+   Geomatics Engineering Student  
+   Hacettepe University  
+   Ankara, Türkiye  
+
+---
+
+### Notes
+This project helped me improve my understanding of front-end web design, GitHub version control, and how to deploy a website online.  
+It was also a great opportunity to combine web technologies with geographic visualization tools like **OpenLayers**.
