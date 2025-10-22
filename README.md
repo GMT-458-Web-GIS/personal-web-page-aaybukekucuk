@@ -67,6 +67,12 @@ The project is hosted publicly on **GitHub Pages**, as required by the course as
 
 ---
 
+## 🌐 Live Web Page
+You can view my personal web page here:  
+🔗 [https://gmt-458-web-gis.github.io/personal-web-page-aaybukekucuk/](https://gmt-458-web-gis.github.io/personal-web-page-aaybukekucuk/)
+
+---
+
 ## 👩‍💻 Author
 **Aybüke Küçük**  
 Geomatics Engineering Student  
