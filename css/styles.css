@@ -153,3 +153,18 @@ header h2 {
 .internship-table tbody tr:hover {
   background-color: #d6eaf8; /* hover da pastel ton */
 }
+
+/* Internship tablosu için mobil uyumluluk */
+.internship-table-wrapper {
+  overflow-x: auto; /* yatay kaydırma ekler */
+  -webkit-overflow-scrolling: touch; /* mobilde daha pürüzsüz kaydırma */
+}
+
+/* Responsive tablo stilleri */
+@media (max-width: 768px) {
+  .internship-table th,
+  .internship-table td {
+    padding: 8px 10px; /* mobilde daha sıkı padding */
+    font-size: 0.9rem;
+  }
+}
